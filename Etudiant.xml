@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<etudiants>
+  <Etudiant id="1" nom="diouf" prenom="moussa" adresse="thies" matricule="MsterPro" />
+  <Etudiant id="2" nom="diouf" prenom="apo" adresse="mbour" matricule="prof" />
+  <Etudiant id="0" nom="test1" prenom="test2" adresse="test3" matricule="test4" />
+  <etudiant id="3" nom="dia" prenom="lamine" adresse="tiv" matricule="rechO2" />
+</etudiants>
