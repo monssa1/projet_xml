@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-
-
 <medicaments>
-<medicament idMedicament="1" libelle="para" categorie="soin" prixAchat="100" prixVente="120" qteStock="200" datePeremption="12-12-2020" />
+  <medicament idMedicament="1" libelle="para" categorie="soin" prixAchat="100" prixVente="120" qteStock="200" />
+  <medicament idMedicament="2" libelle="" categorie="vermox" qteStock="3" prixAchat="34" prixVente="38" />
+  <medicament idMedicament="3" libelle="verzol" categorie="anti parasite" qteStock="10" prixAchat="1200" prixVente="1300" />
+  <medicament idMedicament="4" libelle="test" categorie="test" qteStock="23" prixAchat="1200" prixVente="1300" />
+  <medicament idMedicament="5" libelle="testm" categorie="testcat" qteStock="98" prixAchat="900" prixVente="1000" />
+  <medicament idMedicament="2" libelle="yyy" categorie="iyuiy" qteStock="2" prixAchat="3" prixVente="4" />
+  <medicament idMedicament="6" libelle="test003" categorie="test003" qteStock="33" prixAchat="223" prixVente="239" />
 </medicaments>

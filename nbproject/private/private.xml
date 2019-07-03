@@ -3,9 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/mdroot/Documents/NetBeansProjects/projet_xml/Vente.xml</file>
             <file>file:/C:/Users/mdroot/Documents/NetBeansProjects/projet_xml/src/projet_xml/Projet_xml.java</file>
-            <file>file:/C:/Users/mdroot/Documents/NetBeansProjects/projet_xml/Etudiant.xml</file>
-            <file>file:/C:/Users/mdroot/Documents/NetBeansProjects/projet_xml/src/entities/Etudiant.java</file>
+            <file>file:/C:/Users/mdroot/Documents/NetBeansProjects/projet_xml/src/entities/Pharmacien.java</file>
+            <file>file:/C:/Users/mdroot/Documents/NetBeansProjects/projet_xml/src/entities/Fournisseur.java</file>
+            <file>file:/C:/Users/mdroot/Documents/NetBeansProjects/projet_xml/livraison.xml</file>
+            <file>file:/C:/Users/mdroot/Documents/NetBeansProjects/projet_xml/src/entities/Medicament.java</file>
         </group>
     </open-files>
 </project-private>

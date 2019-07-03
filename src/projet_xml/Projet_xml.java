@@ -167,11 +167,57 @@ public class Projet_xml {
                         m.affiche();
                         break;
                     case 2:
-                       // m.ajouter(f);
-                      
+                        System.out.println("Saisir id du médicament :");
+                        int id_m = scan.nextInt();
+                        System.out.println("Saisir libelle du médicament :");
+                        String libelle = scan.nextLine();
+                        libelle = scan.nextLine();
+                        System.out.println("Saisir categorie du médicament :");
+                        String cat = scan.nextLine();
+                        //System.out.println("Saisir date de Peremption");
+                        
+                        System.out.println("Saisir quantité en stock :");
+                        int qtsk = scan.nextInt();
+                        System.out.println("Saisir prix d'achat :");
+                        int pa = scan.nextInt();
+                        System.out.println("Saisir prix de vente :");
+                        int pv = scan.nextInt();
+                        m.setCategorie(cat);
+                        m.setIdMedicament(id_m);
+                        m.setLibelle(libelle);
+                        m.setPrixAchat(pa);
+                        m.setPrixVente(pv);
+                        m.setQteStock(qtsk);
+                        m.ajouter(m);
+                        System.out.println("Ajoutée succes ");
+                        //m.affiche();
+                        break;
+                    case 3:
+                        m.affiche();
+                        System.out.println("Saisir id du médicament :");
+                        String id_mod = scan.nextLine();
+                        id_mod = scan.nextLine();
+                        System.out.println("Saisir libelle du médicament :");
+                        String libelle_m = scan.nextLine();
+                        libelle_m = scan.nextLine();
+                        System.out.println("Saisir categorie du médicament :");
+                        String categorie = scan.nextLine();
+                        //System.out.println("Saisir date de Peremption");
+                        
+                        System.out.println("Saisir quantité en stock :");
+                        int qtstock = scan.nextInt();
+                        System.out.println("Saisir prix d'achat :");
+                        int pachat = scan.nextInt();
+                        System.out.println("Saisir prix de vente :");
+                        int pvente = scan.nextInt();
+                        
+                       m.modifier(id_mod, libelle_m, categorie, pachat, pvente, qtstock);
+                        break;
+                    case 4:
+                        
                         break;
                 }
-                
+                break;
             case 5:
                 System.out.println("**\t\t   : Gestion des pharmaciens \t\t**");
                 System.out.println("**\t\t 1 : Lister les pharmaciens \t\t**");
